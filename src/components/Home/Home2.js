@@ -19,10 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            As a front-end developer with a year of experience, I thrive on crafting immersive digital experiences through the fusion of HTML, CSS, and JavaScript. With a passion for React.js and a keen eye for design, I specialize in building dynamic and responsive web applications that leave a lasting impression. My journey in web development is driven by a relentless pursuit of innovation and excellence, shaping the future of user-centric interfaces, one line of code at a time.
+              I'm a passionate Front-End Developer with over 3 years of
+              experience building responsive and user-centric web applications.
+              My expertise lies in HTML5, CSS3, JavaScript (ES6+), and modern
+              frameworks like React.js with Redux. I have a strong foundation in
+              UI design and thrive on delivering clean, scalable, and
+              maintainable code.
               <br />
-           
-              </p>
+              <br />
+              I specialize in crafting dynamic interfaces using React Hooks,
+              Material-UI, and Bootstrap 5. I’ve contributed to high-performance
+              applications by implementing efficient state management, API
+              integration with Axios, and optimizing load times using lazy
+              loading techniques.
+              <br />
+              <br />
+              With a keen eye for detail and a drive for continuous learning, I
+              strive to create seamless digital experiences that blend
+              creativity with functionality.
+            </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
