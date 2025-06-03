@@ -70,7 +70,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          <strong className="purple">MY PROJECTS </strong>
+          <strong className="purple">METROLABS PROJECTS</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are some of the projects I've recently worked on:
@@ -84,16 +84,29 @@ function Projects() {
               description="An educational web platform providing tools for students, teachers, and admins to manage content, schedules, and communications. Built using React.js, Redux, and Material-UI with seamless REST API integration, form validation, and optimized state management."
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vedarshi}
               isBlog={false}
-              title="Vedarshi"
+              title="Thara sope"
+              description="Thara Sope is a self-developed e-commerce web app for handmade soaps. It includes features like productlisting, cart functionality, and an admin panel for managing product data."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vedarshi}
+              isBlog={false}
+              title="Vedarushi"
               description="A spiritual services booking platform enabling users to schedule poojas, vrathams, and personalized birthday wishes online. Developed intuitive and responsive UI/UX using React.js, Bootstrap 5, and Material-UI. Integrated REST APIs for real-time updates and efficient booking flows."
             />
           </Col>
+        </Row>
 
+        <h1 className="project-heading">
+          <strong className="purple">METROLABS PROJECTS</strong>
+        </h1>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={quiz}

@@ -58,7 +58,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Srikanth_latest_3+.pdf";
+import pdf from "../../Assets/../Assets/Srikanth_latest_resume_3.2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -84,9 +84,15 @@ function ResumeNew() {
 
         {/* Download Button Top */}
         <Row className="justify-content-center mb-4">
-          <Button variant="primary" style={{ maxWidth: "250px" }}>
-            <AiOutlineDownload /> &nbsp;Download CV
-          </Button>
+          <a
+            href={pdf}
+            download="../../Assets/../Assets/Srikanth_latest_resume_3.2.pdf"
+            style={{ textDecoration: "none" }}
+          >
+            <Button variant="primary" style={{ maxWidth: "250px" }}>
+              <AiOutlineDownload /> &nbsp;Download CV
+            </Button>
+          </a>
         </Row>
 
         {/* Centered PDF View */}
